@@ -1,6 +1,12 @@
+import React, { useState } from 'react';
+import FormLogin from '../../../app/components/FormLogin';
 
-export default function Login(){
-    return(
-        <h1>Esta é a pagina de login</h1>
-    )
+const Login = () => {
+  return (
+    <div className='text-white w-screen h-screen h-[100vh] flex justify-center items-center bg-cover' style={{background: "url('/Ecommerce.png')", backgroundSize: 'cover'}}>
+      <FormLogin/>
+    </div>
+  )
 }
+
+export default Login
