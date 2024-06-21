@@ -1,6 +1,10 @@
 import React from 'react';
 
-const Card = ({name, preco}) => {
+interface CardProps {
+  name: string;
+  preco:string;
+}
+const Card: React.FC<CardProps> = ({ name, preco }) => {
   return (
     <div className="card bg-gray rounded-lg shadow-md hover:shadow-xl transition duration-300 cursor-pointer">
         <img className="card--image mt-4 rounded-lg" src="/Ecommerce.png" />

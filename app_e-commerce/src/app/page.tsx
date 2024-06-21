@@ -22,7 +22,7 @@ function landingPage(){
     return (
         <main className="mx-auto">
             <Navbar />
-            <div className="mt-3 mx-auto">
+            <div className="mt-3 mx-auto p-3">
                 <CarouselCustomNavigation />
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-5 container mx-auto">
                 {cardData.map((item, index) => (
